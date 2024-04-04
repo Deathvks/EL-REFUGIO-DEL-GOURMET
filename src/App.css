@@ -7,3 +7,8 @@ body{
     font-family: 'Open Sans', sans-serif;
     background-color: #fff2cd;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}

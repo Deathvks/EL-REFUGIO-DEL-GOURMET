@@ -62,15 +62,22 @@
     .content-after-h1{
         color: #333;
         font-size: 30px;
-        width: 60%;
-        margin: 6em auto;
+        width: 81%;
+        margin: 5em auto;
     }
 
     .content-text-after-presentation{
         color: #666;
         width: 60%;
         font-size: 20px;
-        margin: -8em auto;
+        margin: -6.5em 3.2em;
+    }
+
+    .content-text-after-presentation2{
+        color: #666;
+        width: 60%;
+        font-size: 20px;
+        margin: 8em 3.2em;
     }
 
     .content-image2{

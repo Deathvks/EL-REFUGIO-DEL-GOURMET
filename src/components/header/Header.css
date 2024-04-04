@@ -59,7 +59,7 @@
     .header-container{
         width: 100%;
         z-index: 99;
-        border-bottom: 1px solid #fff2cd;
+        border-bottom: 1px solid black;
     }
     
     .header-container header{
@@ -69,14 +69,14 @@
         justify-content: space-between;
         align-items: center;
         padding: 20px 0;
-        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.2);
     }
     
     .header-container header nav a{
         margin-right: 4em;
         display: inline-block;
         text-decoration: none;
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         text-transform: uppercase;
         font-weight: bold;
     }
@@ -87,9 +87,10 @@
         color: rgb(255, 255, 255);
     }
     
-    .name{
+    .header-name{
+        color: black;
         font-size: 24px;
-        margin: auto;
+        margin: 1.5em auto;
     }
 
     .header-logo{

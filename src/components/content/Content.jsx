@@ -15,7 +15,8 @@ function Content(){
         <div className='content-after-container'>
             <div className='content-after-text'>
                 <h1 className='content-after-h1'>EL REFUGIO DEL GOURMET SIEMPRE EN CASA</h1>
-                <p className='content-text-after-presentation'>Ahora y para siempre, disfruta de la opción EL REFUGIO DEL GOURMET en casa. En la que podrás disfrutar de toda nuestra carta y de promos exclusivas. No te olvides de registrarte para enterarte de todas las novedades.</p>
+                <p className='content-text-after-presentation'>Ahora y para siempre, disfruta de la opción EL REFUGIO DEL GOURMET en casa. En la que podrás disfrutar de toda nuestra carta y de promos exclusivas.</p>
+                <p className='content-text-after-presentation2'>No te olvides de registrarte para enterarte de todas las novedades.</p>
             </div>
             <div className='content-after-image'>
             <img src="../../public/img/delivery.jpeg" alt="image2" className="content-image2"></img>
