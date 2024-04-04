@@ -8,7 +8,7 @@ function Footer(){
                     <h1 className='name'>EL REFUGIO DEL GOURMET</h1>
                 </div>
                 <nav>
-                    <a href=''>Inicio</a>
+                    <a href='./'>Inicio</a>
                     <a href=''>Sobre Nosotros</a>
                     <a href=''>Carta</a>
                 </nav>

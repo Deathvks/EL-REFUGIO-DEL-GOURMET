@@ -19,7 +19,6 @@
     }
     
     .content-image1{
-        border-radius: 15px;
         float: right;
         display: block;
         width: 61vw;
@@ -32,12 +31,14 @@
     }
 
     .content-h1{
+        color: #333;
         font-size: 30px;
         width: 65%;
         margin: 12em auto;
     }
 
     .content-text-presentation{
+        color: #666;
         width: 65%;
         font-size: 20px;
         margin: -17em auto;
@@ -59,12 +60,14 @@
     }
 
     .content-after-h1{
+        color: #333;
         font-size: 30px;
         width: 60%;
         margin: 6em auto;
     }
 
     .content-text-after-presentation{
+        color: #666;
         width: 60%;
         font-size: 20px;
         margin: -8em auto;
