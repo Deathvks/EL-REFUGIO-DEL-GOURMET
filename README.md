@@ -1,6 +1,6 @@
 # EL REFUGIO DEL GOURMET
 
-Current news page about technology and modern. When it is ready, I will upload the page to a domain that I will provide here
+If you're looking for bait... You've found us. 100% beef burgers made fresh.
 
 ## Built With
 
