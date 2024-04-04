@@ -19,6 +19,7 @@
     }
     
     .content-image1{
+        border-radius: 15px;
         float: right;
         display: block;
         width: 61vw;
@@ -40,5 +41,38 @@
         width: 65%;
         font-size: 20px;
         margin: -17em auto;
+    }
+
+    .content-after-container{
+        margin-top: 6em;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .content-after-text{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15em;
+    }
+
+    .content-after-h1{
+        font-size: 30px;
+        width: 60%;
+        margin: 6em auto;
+    }
+
+    .content-text-after-presentation{
+        width: 60%;
+        font-size: 20px;
+        margin: -8em auto;
+    }
+
+    .content-image2{
+        margin-right: 25em;
+        border-radius: 10px;
+        width: 30vw;
     }
 }
