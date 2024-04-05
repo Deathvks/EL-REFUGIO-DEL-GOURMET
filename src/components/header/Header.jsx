@@ -5,7 +5,7 @@ function Header(){
         <div className='header-container'>
             <header>
                 <div className='header-presentation'>
-                    <img src="../../img/refugioDelGourmet.png" alt="logo" className='header-logo'/>
+                    <a href='./'><img src="../../img/refugioDelGourmet.png" alt="logo" className='header-logo'/></a>
                     <a href='./'><h1 className='header-name'>EL REFUGIO DEL GOURMET</h1></a>
                 </div>
                 <nav>

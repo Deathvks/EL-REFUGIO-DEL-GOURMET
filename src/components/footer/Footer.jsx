@@ -5,11 +5,11 @@ function Footer() {
       <div className="footer-container">
         <footer>
           <div className="footer-presentation">
-            <img
+            <a href="./"><img
               src="../../img/refugioDelGourmet.png"
               alt="logo"
               className="footer-logo"
-            />
+            /></a>
             <a href="./">
               <h1 className="footer-name">EL REFUGIO DEL GOURMET</h1>
             </a>
