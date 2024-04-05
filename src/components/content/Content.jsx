@@ -35,8 +35,8 @@ function Content() {
         </div>
         <div className="content-after-image">
           <img
-            src="../../public/img/delivery.jpeg"
-            alt="image2"
+            src="../../img/delivery.jpeg"
+            alt="delivery"
             className="content-image2"
           ></img>
         </div>

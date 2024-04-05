@@ -81,6 +81,7 @@
     }
 
     .content-image2 {
+        border: 2px solid black;
         margin-right: 25em;
         border-radius: 10px;
         width: 30vw;

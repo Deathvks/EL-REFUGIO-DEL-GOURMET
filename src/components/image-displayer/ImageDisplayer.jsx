@@ -1,16 +1,16 @@
 import PropTypes from 'prop-types';
 import "./ImageDisplayer.css";
 
-function ImageDisplayer({ fileName, alternativeText}){
+function ImageDisplayer({ photo, alternativeText }){
     return(
         <div className='array'>
-            <img src={fileName} alt={alternativeText}/>
+            <img src={`/img/${photo.fileName}`} alt={alternativeText}/>
         </div>
     )
 }
 
 ImageDisplayer.propTypes = {
-    fileName: PropTypes.string.isRequired,
+    photo: PropTypes.object.isRequired,
     alternativeText: PropTypes.string.isRequired,
 };
 
