@@ -12,39 +12,39 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .content-container{
+    .content-container {
         display: flex;
         width: 100%;
         height: 100%;
     }
-    
-    .content-image1{
+
+    .content-image1 {
         float: right;
         display: block;
         width: 61vw;
         height: 85.5vh;
     }
 
-    .content-text{
+    .content-text {
         display: flex;
         flex-direction: column;
     }
 
-    .content-h1{
+    .content-h1 {
         color: #333;
         font-size: 30px;
         width: 65%;
         margin: 12em auto;
     }
 
-    .content-text-presentation{
+    .content-text-presentation {
         color: #666;
         width: 65%;
         font-size: 20px;
         margin: -17em auto;
     }
 
-    .content-after-container{
+    .content-after-container {
         margin-top: 6em;
         display: flex;
         width: 100%;
@@ -53,36 +53,49 @@
         justify-content: space-between;
     }
 
-    .content-after-text{
+    .content-after-text {
         display: flex;
         flex-direction: column;
         margin-left: 15em;
     }
 
-    .content-after-h1{
+    .content-after-h1 {
         color: #333;
         font-size: 30px;
         width: 81%;
         margin: 5em auto;
     }
 
-    .content-text-after-presentation{
+    .content-text-after-presentation {
         color: #666;
         width: 60%;
         font-size: 20px;
         margin: -6.5em 3.2em;
     }
 
-    .content-text-after-presentation2{
+    .content-text-after-presentation2 {
         color: #666;
         width: 60%;
         font-size: 20px;
         margin: 8em 3.2em;
     }
 
-    .content-image2{
+    .content-image2 {
         margin-right: 25em;
         border-radius: 10px;
         width: 30vw;
+    }
+
+    .content-array {
+        margin-top: 4em;
+        margin-bottom: 3em;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .content-text-array {
+        margin: 0 auto;
+        color: #333;
+        font-size: 15px;
     }
 }
