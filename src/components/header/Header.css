@@ -13,35 +13,55 @@
     .header-container{
         width: 100%;
         z-index: 99;
-        border-bottom: 1px solid darkblue;
-        z-index: 99;
+        border-bottom: 1px solid black;
     }
     
     .header-container header{
+        height: 4vh;
         width: 100%;
         margin: auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 20px 0;
-        background-color: cornflowerblue;
-        font-size: 5px;
+        background-color: rgba(0, 0, 0, 0.2);
     }
     
     .header-container header nav a{
         margin-right: 4em;
         display: inline-block;
         text-decoration: none;
-        color: black;
-        padding: 1px;
-        font-size: 5px;
+        color: rgb(0, 0, 0);
         text-transform: uppercase;
         font-weight: bold;
     }
+
+    .header-presentation{
+        display: flex;
+        flex-direction: row;
+        color: rgb(255, 255, 255);
+    }
     
-    .name{
-        margin-left: 1em;
-        font-size: 13px;
+    .header-name{
+        color: black;
+        font-size: 24px;
+        margin: 1.5em auto;
+    }
+
+    .header-logo{
+        border-radius: 5px;
+        margin-right: 3em;
+        width: 5vw;
+        height: 5vw;
+        margin-left: 10em;
+    }
+
+    .header-insta{
+        width: 1.5em;
+    }
+
+    .header-twitter{
+        width: 1.5em;
     }
 }
 

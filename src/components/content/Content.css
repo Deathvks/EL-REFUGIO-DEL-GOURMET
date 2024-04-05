@@ -1,5 +1,113 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    .content-container {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        margin-bottom: 2em;
+    }
+
+    .content-image{
+        margin: 1em auto;
+        display: flex;
+    }
+
+    .content-image1 {
+        border: 2px solid black;
+        border-radius: 4px;
+        float: right;
+        display: block;
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .content-text {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+    }
+
+    .content-h1 {
+        color: #333;
+        font-size: 20px;
+        margin: 0em auto;
+    }
+
+    .content-text-presentation {
+        width: 70%;
+        color: #666;
+        font-size: 13px;
+        margin: 1em auto;
+    }
+
+    .content-after-container {
+        margin-top: 3em;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .content-after-text {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .content-after-h1 {
+        color: #333;
+        font-size: 20px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .content-text-after-presentation {
+        color: #666;
+        width: 80%;
+        font-size: 13px;
+        margin: 1em auto;
+    }
+
+    .content-text-after-presentation2 {
+        color: #666;
+        width: 80%;
+        font-size: 13px;
+        margin: 0.5em auto;
+        margin-bottom: 2em;
+    }
+
+    .content-image2 {
+        border: 2px solid black;
+        border-radius: 4px;
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .content-after-image{
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .content-array {
+        margin-top: 4em;
+        margin-bottom: 3em;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .content-text-array {
+        
+    }
+
+    .content-after-h1{
+        margin: 0 auto;
+        color: #333;
+        font-size: 20px;
+    }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {}

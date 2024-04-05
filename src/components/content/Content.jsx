@@ -43,9 +43,8 @@ function Content() {
       </div>
       <div className="content-array">
         <div className="content-text-array">
-          <h1>NUESTROS CLIENTES SIEMPRE SALEN SATISFECHOS</h1>
-        </div>
-            
+          <h1 className="content-after-h1">NUESTROS CLIENTES SIEMPRE SALEN SATISFECHOS</h1>
+        </div> 
       </div>
     </>
   );
