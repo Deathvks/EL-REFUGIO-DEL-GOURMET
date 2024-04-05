@@ -13,7 +13,7 @@ function Content() {
         </div>
         <div className="content-image">
           <img
-            src="../..img/image-hamburguer.jpeg"
+            src="../../img/image-hamburguer.jpeg"
             alt="image1"
             className="content-image1"
           ></img>
