@@ -84,4 +84,15 @@
     .footer-twitter{
         width: 1.5em;
     }
+
+    .footer-copyright{
+        display: flex;
+        flex-direction: row;
+        margin-top: 1em;
+    }
+
+    .footer-text-copyright{
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+    }
 }
