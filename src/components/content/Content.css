@@ -22,7 +22,7 @@
         float: right;
         display: block;
         width: 61vw;
-        height: 85.5vh;
+        height: 88.5vh;
     }
 
     .content-text {
@@ -34,14 +34,14 @@
         color: #333;
         font-size: 30px;
         width: 65%;
-        margin: 12em auto;
+        margin: 11.5em auto;
     }
 
     .content-text-presentation {
         color: #666;
         width: 65%;
         font-size: 20px;
-        margin: -17em auto;
+        margin: -16.5em auto;
     }
 
     .content-after-container {
