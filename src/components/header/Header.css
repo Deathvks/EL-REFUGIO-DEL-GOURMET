@@ -24,7 +24,7 @@
         color: rgb(0, 0, 0);
         text-transform: uppercase;
         font-weight: bold;
-        font-size: 10.5px;
+        font-size: 10px;
     }
 
     .header-presentation{
@@ -59,13 +59,178 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    .header-container{
+        width: 100%;
+        z-index: 99;
+        border-bottom: 1px solid black;
+    }
+    
+    .header-container header{
+        height: 10vh;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    
+    .header-container header nav a{
+        margin-right: 1em;
+        display: inline-block;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .header-presentation{
+        display: flex;
+        flex-direction: row;
+        color: rgb(255, 255, 255);
+    }
+    
+    .header-name{
+        color: black;
+        width: 70%;
+        font-size: 20px;
+        margin: 5em auto;
+    }
+
+    .header-logo{
+        border-radius: 5px;
+        margin: 4em auto;
+        width: 15vw;
+        height: 13vh;
+        margin-left: 2em;
+    }
+
+    .header-insta{
+        width: 1em;
+    }
+
+    .header-twitter{
+        width: 1em;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    .header-container{
+        width: 100%;
+        z-index: 99;
+        border-bottom: 1px solid black;
+    }
+    
+    .header-container header{
+        height: 10vh;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    
+    .header-container header nav a{
+        margin-right: 1em;
+        display: inline-block;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .header-presentation{
+        display: flex;
+        flex-direction: row;
+        color: rgb(255, 255, 255);
+    }
+    
+    .header-name{
+        color: black;
+        width: 70%;
+        font-size: 20px;
+        margin: 5em auto;
+    }
+
+    .header-logo{
+        border-radius: 5px;
+        margin: 4em auto;
+        width: 15vw;
+        height: 13vh;
+        margin-left: 2em;
+    }
+
+    .header-insta{
+        width: 1em;
+    }
+
+    .header-twitter{
+        width: 1em;
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    .header-container{
+        width: 100%;
+        z-index: 99;
+        border-bottom: 1px solid black;
+        list-style: none;
+    }
+
+    .header-container header{
+        height: 7vh;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    
+    .header-container header nav a{
+        margin-right: 2em;
+        display: inline-block;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .header-presentation{
+        display: flex;
+        flex-direction: row;
+        color: rgb(255, 255, 255);
+    }
+    
+    .header-name{
+        color: black;
+        font-size: 24px;
+        margin: 3.5em auto;
+    }
+
+    .header-logo{
+        border-radius: 5px;
+        width: 10vw;
+        height: 10vw;
+        margin-left: 5em;
+    }
+
+    .header-insta{
+        width: 1.5em;
+    }
+
+    .header-twitter{
+        width: 1.5em;
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -105,12 +270,13 @@
     .header-name{
         color: black;
         font-size: 24px;
-        margin: 1.5em auto;
+        margin: 5em auto;
     }
 
     .header-logo{
         border-radius: 5px;
-        margin-right: 3em;
+        margin-right: 1em;
+        margin-top: 6.2em;
         width: 5vw;
         height: 5vw;
         margin-left: 10em;

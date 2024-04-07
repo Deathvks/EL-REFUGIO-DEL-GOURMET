@@ -10,13 +10,13 @@
         background-color: #000000;
         box-shadow: 0 4px 7px rgba(0, 0, 0, 0.9);
     }
-    
+
     .cookiesPrivacy-all h1 {
         font-size: 24px;
         margin-bottom: 20px;
         color: #ffffff;
     }
-    
+
     .cookiesPrivacy-all p {
         font-size: 16px;
         margin-bottom: 15px;
@@ -25,13 +25,83 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+    .cookiesPrivacy-all {
+        border-radius: 10px;
+        border: 3px solid #ffffff;
+        width: 80vw;
+        height: 64vh;
+        margin: 3em auto;
+        padding: 20px;
+        background-color: #000000;
+        box-shadow: 0 4px 7px rgba(0, 0, 0, 0.9);
+    }
+
+    .cookiesPrivacy-all h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #ffffff;
+    }
+
+    .cookiesPrivacy-all p {
+        font-size: 16px;
+        margin-bottom: 15px;
+        color: #ffffff;
+    }
+
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    .cookiesPrivacy-all {
+        border-radius: 10px;
+        border: 3px solid #ffffff;
+        width: 80vw;
+        height: 59vh;
+        margin: 3em auto;
+        padding: 20px;
+        background-color: #000000;
+        box-shadow: 0 4px 7px rgba(0, 0, 0, 0.9);
+    }
+
+    .cookiesPrivacy-all h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #ffffff;
+    }
+
+    .cookiesPrivacy-all p {
+        font-size: 16px;
+        margin-bottom: 15px;
+        color: #ffffff;
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    .cookiesPrivacy-all {
+        border-radius: 10px;
+        border: 3px solid #ffffff;
+        width: 80vw;
+        height: 50vh;
+        margin: 3em auto;
+        padding: 20px;
+        background-color: #000000;
+        box-shadow: 0 4px 7px rgba(0, 0, 0, 0.9);
+    }
+
+    .cookiesPrivacy-all h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #ffffff;
+    }
+
+    .cookiesPrivacy-all p {
+        font-size: 16px;
+        margin-bottom: 15px;
+        color: #ffffff;
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -44,13 +114,13 @@
         background-color: #000000;
         box-shadow: 0 4px 7px rgba(0, 0, 0, 0.9);
     }
-    
+
     .cookiesPrivacy-all h1 {
         font-size: 24px;
         margin-bottom: 20px;
         color: #ffffff;
     }
-    
+
     .cookiesPrivacy-all p {
         font-size: 16px;
         margin-bottom: 15px;
