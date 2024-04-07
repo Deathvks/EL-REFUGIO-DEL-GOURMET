@@ -71,8 +71,9 @@
         width: 100%;
         z-index: 99;
         border-bottom: 1px solid black;
+        list-style: none;
     }
-    
+
     .header-container header{
         height: 7vh;
         width: 100%;
