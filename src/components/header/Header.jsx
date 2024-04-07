@@ -12,8 +12,8 @@ function Header(){
                     <a href='./'>Inicio</a>
                     <a href=''>Sobre Nosotros</a>
                     <a href=''>Carta</a>
-                    <a href='https://www.instagram.com'><img src="../../../img/insta.webp" alt='insta' className='header-insta'/></a>
-                    <a href='https://www.twitter.com'><img src="../../../img/twitter.webp" alt='twitter' className='header-twitter'/></a>
+                    <a href='https://www.instagram.com' target='blank'><img src="../../../img/insta.webp" alt='insta' className='header-insta'/></a>
+                    <a href='https://www.twitter.com' target='blank'><img src="../../../img/twitter.webp" alt='twitter' className='header-twitter'/></a>
                 </nav>
             </header>
         </div>

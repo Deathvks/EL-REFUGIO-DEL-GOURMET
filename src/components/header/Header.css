@@ -18,12 +18,13 @@
     }
     
     .header-container header nav a{
-        margin-right: 4em;
+        margin-right: 1em;
         display: inline-block;
         text-decoration: none;
         color: rgb(0, 0, 0);
         text-transform: uppercase;
         font-weight: bold;
+        font-size: 10.5px;
     }
 
     .header-presentation{
@@ -36,23 +37,23 @@
         color: black;
         width: 70%;
         font-size: 13px;
-        margin: 1.5em auto;
+        margin: 3em auto;
     }
 
     .header-logo{
         border-radius: 5px;
         margin: 2.5em auto;
-        width: 5vw;
-        height: 5vw;
+        width: 6vw;
+        height: 6vw;
         margin-left: 1em;
     }
 
     .header-insta{
-        width: 1.5em;
+        width: 1em;
     }
 
     .header-twitter{
-        width: 1.5em;
+        width: 1em;
     }
 }
 
