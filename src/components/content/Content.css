@@ -98,10 +98,6 @@
         flex-direction: row;
     }
 
-    .content-text-array {
-        
-    }
-
     .content-after-h1{
         margin: 0 auto;
         color: #333;
@@ -196,10 +192,9 @@
     }
 
     .content-array {
-        margin-top: 4em;
-        margin-bottom: 3em;
         display: flex;
         flex-direction: row;
+        margin-bottom: -5em;
     }
 
     .content-text-array {
