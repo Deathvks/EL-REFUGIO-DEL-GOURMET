@@ -3,6 +3,8 @@ import Footer from "../../components/footer/Footer";
 import Content from "../../components/content/Content";
 import ImageList from "../../components/image-list/ImageList";
 import Card from "../../components/card/Card";
+import Arrow from "../../components/arrow/Arrow";
+
 
 function Home() {
   return (
@@ -12,6 +14,7 @@ function Home() {
       <ImageList />
       <Card />
       <Footer />
+      <Arrow/>
     </div>
   );
 }

@@ -1,0 +1,22 @@
+.arrow-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3vw;
+    height: 6vh;
+    border-radius: 10px;
+    background-color: rgb(44, 42, 42);
+    position: relative;
+    margin-right: 3em;
+    margin-bottom: 5em;
+    position: fixed ;
+    right: 3%;
+    bottom: 0.1%;
+}
+
+.header-icons-desktop{
+    width: 1vw;
+    height: auto;
+    color: #fff2cd;
+}
+
