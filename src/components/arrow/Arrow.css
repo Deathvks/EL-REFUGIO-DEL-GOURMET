@@ -12,8 +12,8 @@
     position: fixed ;
     right: 3%;
     bottom: 0.1%;
-    transition: opacity 0.3s ease-in-out; /* Añade transición para la opacidad */
-    opacity: 1; /* Estado visible por defecto */
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
 }
 
 .header-icons-desktop{
@@ -24,6 +24,6 @@
 
 .hidden {
     opacity: 0;
-    pointer-events: none; /* Evita interacciones cuando está oculto */
+    pointer-events: none;
 }
 
