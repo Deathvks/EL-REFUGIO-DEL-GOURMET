@@ -1,6 +1,7 @@
 import Header from "../../components/header/Header";
 import CookiesPrivacy from "../../components/cookies-privacy/CookiesPrivacy";
 import Footer from "../../components/footer/Footer";
+import Arrow from "../../components/arrow/Arrow";
 
 function Privacy(){
     return (
@@ -8,6 +9,7 @@ function Privacy(){
             <Header />
             <CookiesPrivacy />
             <Footer/>
+            <Arrow />
         </div>
     )
 }

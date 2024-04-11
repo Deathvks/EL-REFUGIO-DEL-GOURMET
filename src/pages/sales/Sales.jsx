@@ -1,6 +1,7 @@
 import Header from "../../components/header/Header"
 import SalesManager from "../../components/sales-manager/SalesManager";
-import Footer from "../../components/footer/Footer";;
+import Footer from "../../components/footer/Footer";import Arrow from "../../components/arrow/Arrow";
+;
 
 function Sales(){
     return(
@@ -8,6 +9,7 @@ function Sales(){
             <Header />
             <SalesManager />
             <Footer />
+            <Arrow />
         </div>
     )
 }
