@@ -20,10 +20,8 @@ function Arrow() {
         const onScroll = () => {
             let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
             if (currentScroll > lastScrollTop) {
-                // Desplazamiento hacia abajo
                 setIsVisible(false);
             } else {
-                // Desplazamiento hacia arriba
                 setIsVisible(true);
             }
             lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
