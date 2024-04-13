@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 2%;
+    margin-right: 4%;
     height: auto;
     width: 100vw;
 }
@@ -35,7 +35,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    border-bottom: 1px solid #000000;
+    border-bottom: 2px solid #666;
     color: #666;
     font-weight: bold;
     margin: 1em auto;
@@ -70,6 +70,9 @@
         width: 40vw;
         height: 32vh;
     }
+    .menu-image-text {
+        font-size: 17px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -84,6 +87,10 @@
         width: 45vw;
         height: 38vh;
     }
+
+    .menu-image-text {
+        font-size: 20px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -93,14 +100,14 @@
         width: 90vw;
         margin-bottom: 4em;
     }
-
-    .menu-image-wrapper {
-        margin-right: 20px;
-    }
     
     .menu-image-array {
         width: 30vw;
         height: 50vh;
         border-radius: 10px;
+    }
+
+    .menu-image-text {
+        font-size: 20px;
     }
 }
