@@ -58,7 +58,6 @@
 }
 
 .content-after-h1 {
-    text-align: center;
     color: #333;
     font-size: 20px;
     width: 80%;
@@ -66,7 +65,6 @@
 }
 
 .content-text-after-presentation {
-    text-align: center;
     color: #666;
     width: 80%;
     font-size: 13px;
@@ -75,7 +73,6 @@
 }
 
 .content-text-after-presentation2 {
-    text-align: center;
     color: #666;
     width: 80%;
     font-size: 13px;

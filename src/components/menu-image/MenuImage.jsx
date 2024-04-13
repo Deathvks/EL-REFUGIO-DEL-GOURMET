@@ -8,8 +8,13 @@ function MenuImage(){
             <div className="menu-image-container">
                 {
                     card.map((cards, index) => (
-                        <div key={index} className="image-list-image-wrapper">
-                            <img src={`/img/${cards.fileName}`} alt={`imagen ${index}`} className="menu-image-array"/>
+                        <div key={index} className="menu-item">
+                            <div className="menu-image-wrapper">
+                                <img src={`/img/${cards.fileName}`} alt={`imagen ${index}`} className="menu-image-array"/>
+                            </div>
+                            <div className="menu-image-text">
+                                <p className="menu-image-price">{cards.price}</p>
+                            </div>
                         </div>
                     ))
                 }

@@ -34,6 +34,13 @@ function Footer() {
               className="footer-twitter"
             />
           </a>
+          <a href="https://github.com/Deathvks/EL-REFUGIO-DEL-GOURMET" target="blank">
+            <img
+              src="../../../img/github.webp"
+              alt="twitter"
+              className="footer-github"
+            />
+          </a>
         </nav>
 
         <div className="footer-copy">
