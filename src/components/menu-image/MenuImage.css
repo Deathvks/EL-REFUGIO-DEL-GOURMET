@@ -1,0 +1,93 @@
+.menu-image-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    border-radius: 10px;
+    justify-content: flex-start;
+    margin: 1em auto;
+    width: 80vw;
+    margin-bottom: 4em;
+}
+
+.image-list-image-wrapper {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    margin-right: 2%;   
+}
+
+.menu-image-array {
+    border-radius: 10px;
+    width: 30vw;
+    height: auto;
+    scroll-snap-stop: always;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .menu-image-container {
+        width: 90vw;
+        margin: 1em auto;
+        margin-bottom: 4em;
+    }
+    
+    .menu-image-array {
+        width: 35vw;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .menu-image-container {
+        width: 90vw;
+        margin: 1em auto;
+        margin-bottom: 4em;
+    }
+    
+    .menu-image-array {
+        width: 40vw;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .menu-image-container {
+        width: 90vw;
+        margin: 1em auto;
+        margin-bottom: 4em;
+    }
+    
+    .menu-image-array {
+        width: 35vw;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .menu-image-container {
+        margin: -2.5em auto;
+        width: 90vw;
+        transform-style: preserve-3d;
+        perspective: 800px;
+        margin-bottom: 4em;
+    }
+
+    .image-list-image-wrapper {
+        margin-right: 20px;
+        transform: translateZ(-300px);
+    }
+    
+    .image-list-image-wrapper:nth-child(odd) {
+        transform: translateZ(-200px);
+    }
+    
+    .image-list-image-wrapper:nth-child(even) {
+        transform: translateZ(-400px);
+    }
+    
+    .menu-image-array {
+        width: 100%;
+    }
+}
