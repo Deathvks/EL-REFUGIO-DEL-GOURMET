@@ -23,6 +23,14 @@ let card = [
     fileName: "menu7.webp",
     price: "10€ || IVA Inluído",
   },
+  {
+    fileName: "menu8.webp",
+    price: "8€ || IVA Inluído",
+  },
+  {
+    fileName: "menu9.webp",
+    price: "15€ || IVA Inluído",
+  },
 ];
 
 export default card;
