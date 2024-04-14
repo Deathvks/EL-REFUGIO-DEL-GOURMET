@@ -12,6 +12,9 @@ function MenuImage(){
                             <div className="menu-image-wrapper">
                                 <img src={`/img/${cards.fileName}`} alt={`imagen ${index}`} className="menu-image-array"/>
                             </div>
+                            <div className="menu-image-name">
+                                <p className="menu-image-name-hamburguer">{cards.name}</p>
+                            </div>
                             <div className="menu-image-text">
                                 <p className="menu-image-price">{cards.price}</p>
                             </div>

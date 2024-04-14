@@ -31,6 +31,15 @@
     scroll-snap-stop: always;
 }
 
+.menu-image-name{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #666;
+    font-weight: bold;
+    margin: 1em auto;
+}
+
 .menu-image-text {
     display: flex;
     justify-content: center;
@@ -38,7 +47,8 @@
     border-bottom: 2px solid #666;
     color: #666;
     font-weight: bold;
-    margin: 1em auto;
+    margin: 0em auto;
+    margin-bottom: 2em;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -56,6 +66,10 @@
         width: 35vw;
         height: 25vh;
     }
+
+    .menu-image-text{
+        margin-bottom: 2em;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -71,6 +85,11 @@
         height: 32vh;
     }
     .menu-image-text {
+        font-size: 17px;
+        margin-bottom: 1em;
+    }
+
+    .menu-image-name{
         font-size: 17px;
     }
 }
@@ -90,6 +109,11 @@
 
     .menu-image-text {
         font-size: 20px;
+        margin-bottom: 2em;
+    }
+
+    .menu-image-name{
+        font-size: 20px;
     }
 }
 
@@ -107,7 +131,7 @@
         border-radius: 10px;
     }
 
-    .menu-image-text {
-        font-size: 20px;
+    .menu-image-text{
+        margin-bottom: 2em;
     }
 }
