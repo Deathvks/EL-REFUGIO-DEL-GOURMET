@@ -1,0 +1,181 @@
+.from-contianer {
+    margin: auto;
+    padding: 20px;
+    width: 60vw;
+    background-color: #000000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 6em;
+}
+
+.form-news {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-news label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.form-email {
+    width: 55vw;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #fff2cd;
+    border-radius: 3px;
+}
+
+.form-news input[type="text"] {
+    width: 55vw;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #fff2cd;
+    border-radius: 3px;
+}
+
+.form-news input[type="submit"] {
+    width: 25vw;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #ffdd7e;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.alert {
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f44336;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.confirmation {
+    display: flex;
+    width: 60vw;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+.form-news input[type="submit"]:hover {
+    background-color: #ffd358;
+}
+
+.form-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+.form-h1 {
+    color: #333;
+    font-size: 20px;
+    margin: 0em auto;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .from-contianer {
+        width: 50vw;
+    }
+
+    .form-email {
+        width: 45vw;
+    }
+
+    .form-news input[type="text"] {
+        width: 45vw;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .from-contianer {
+        width: 60vw;
+    }
+
+    .form-email {
+        width: 55vw;
+    }
+
+    .form-news input[type="text"] {
+        width: 55vw;
+    }
+
+    .form-news input[type="submit"] {
+        width: 25vw;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .from-contianer {
+        width: 23vw;
+    }
+
+    .form-h1{
+        font-size: 30px;
+    }
+
+    .form-email {
+        width: 20vw;
+    }
+
+    .form-news input[type="text"] {
+        width: 20vw;
+    }
+
+    .form-news input[type="submit"] {
+        width: 10vw;
+    }
+
+}
