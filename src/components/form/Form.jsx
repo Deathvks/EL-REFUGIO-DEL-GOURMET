@@ -60,7 +60,7 @@ function Form() {
 
                     <label for="mail">Correo electrónico:</label>
                     <input className="form-email" id="mail" name="user_mail" onChange={handleChange} value={userInput.user_mail} />
-                    <input type="submit" value="ENVIAR" />
+                    <input type="submit" value="Enviar" />
                 </form>
             </div>
         </>
