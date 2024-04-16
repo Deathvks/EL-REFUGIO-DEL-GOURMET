@@ -8,7 +8,7 @@ function Form() {
         user_mail: ''
     });
     const [alertMessage, setAlertMessage] = useState('');
-    const [showAlert, setShowAlert] = useState(false);
+    const [alertType, setAlertType] = useState('');
 
     const handleChange = (event) => {
         const { name, value } = event.target;
@@ -19,27 +19,24 @@ function Form() {
     };
 
     const hideAlert = () => {
-        setShowAlert(false);
         setAlertMessage('');
+        setAlertType('');
     };
 
     const handleSubmit = (event) => {
         event.preventDefault();
         if (!userInput.user_name || !userInput.user_mail) {
             setAlertMessage('Por favor, completa todos los campos con la información correcta.');
-            setShowAlert(true);
-            setTimeout(hideAlert, 3000); // Alerta desaparecerá después de 3 segundos
+            setAlertType('error');
+            setTimeout(hideAlert, 3000);
         } else if (!/\S+@\S+\.\S+/.test(userInput.user_mail)) {
             setAlertMessage('El correo electrónico no es válido.');
-            setShowAlert(true);
-            setTimeout(hideAlert, 3000); // Alerta desaparecerá después de 3 segundos
+            setAlertType('error');
+            setTimeout(hideAlert, 3000);
         } else {
             setAlertMessage('¡Gracias por enviar tus datos! Pronto recibirás noticias nuestras.');
-            setShowAlert(true);
-            setTimeout(hideAlert, 3000); // Confirmación desaparecerá después de 3 segundos
-            // Aquí puedes enviar los datos a un servidor o manejarlos como desees
-            console.log('Formulario enviado:', userInput);
-            // Restablecer los valores del formulario
+            setAlertType('confirmation');
+            setTimeout(hideAlert, 3000);
             setUserInput({
                 user_name: '',
                 user_mail: ''
@@ -49,7 +46,7 @@ function Form() {
 
     return (
         <>
-            {showAlert && <div className="alert">{alertMessage}</div>}
+            {alertMessage && <div className={`alert ${alertType}`}>{alertMessage}</div>}
             <div className="form-text">
                 <h1 className="form-h1">¡Deja que te enviemos recomendaciones y novedades por correo!</h1>
             </div>
