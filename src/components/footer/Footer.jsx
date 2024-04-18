@@ -18,7 +18,7 @@ function Footer() {
 
         <nav>
           <a href="./">Inicio</a>
-          <a href="">Sobre Nosotros</a>
+          <a href="/about">Sobre Nosotros</a>
           <a href="/menu">Carta</a>
           <a href="https://www.instagram.com" target="blank">
             <img
