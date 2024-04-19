@@ -1,0 +1,23 @@
+.about-content-all{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about-container-presentation{
+    display: flex;
+    flex-direction: row;
+}
+
+.about-content-image{
+    transform: translateX(69.9%);
+}
+
+.about-content-image1{
+    box-shadow: -10px 0 15px rgba(0, 0, 0, 0.5);
+    width: 55vw;
+    height: 89vh;
+}
