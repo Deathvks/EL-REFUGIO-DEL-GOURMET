@@ -1,0 +1,165 @@
+.about-content-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    margin-bottom: 5em;
+}
+
+.about-content-image {
+    margin: 1em auto;
+    display: flex;
+}
+
+.about-content-image1 {
+    border: 2px solid black;
+    border-radius: 4px;
+    float: right;
+    display: block;
+    width: 80vw;
+    height: 30vh;
+}
+
+.about-content-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.about-content-h1 {
+    color: #333;
+    font-size: 20px;
+    margin: 1em auto;
+}
+
+.about-content-text-presentation {
+    width: 65%;
+    color: #666;
+    font-size: 13px;
+    margin: 0 auto;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .about-content-image1 {
+        margin-top: 1em;
+        height: 50vh;
+    }
+    
+    .about-content-text {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+    }
+    
+    .about-content-h1 {
+        color: #333;
+        font-size: 20px;
+        margin: 1em auto;
+    }
+    
+    .about-content-text-presentation {
+        font-size: 16px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .about-content-image1 {
+        width: 65vw;
+        height: 50vh;
+    }
+    
+    .about-content-text {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+    }
+    
+    .about-content-h1 {
+        color: #333;
+        font-size: 20px;
+        margin: 1em auto;
+    }
+    
+    .about-content-text-presentation {
+        font-size: 18px;
+        margin: 1em auto;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .about-content-container {
+        flex-direction: row;
+    }
+    
+    .about-content-image {
+        margin: 1em auto;
+        display: flex;
+    }
+    
+    .about-content-image1 {
+        margin-top: -1em;
+        width: 61vw;
+        height: 86vh;
+    }
+    
+    .about-content-text {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+    }
+    
+    .about-content-h1 {
+        font-size: 30px;
+        width: 70%;
+        margin: 2em auto;
+    }
+    
+    .about-content-text-presentation {
+        width: 70%;
+        font-size: 20px;
+        margin: -1em auto;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .about-content-container {
+        flex-direction: row;
+        margin-bottom: 8em;
+    }
+    
+    .about-content-image {
+        margin: 1em auto;
+        display: flex;
+    }
+    
+    .about-content-image1 {
+        width: 61vw;
+        height: 88.5vh;
+    }
+    
+    .about-content-text {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+    }
+    
+    .about-content-h1 {
+        color: #333;
+        font-size: 30px;
+        width: 65%;
+        margin: 8em auto;
+    }
+    
+    .about-content-text-presentation {
+        width: 65%;
+        font-size: 20px;
+        margin: -11em auto;
+    }
+}

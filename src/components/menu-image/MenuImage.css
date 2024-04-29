@@ -1,0 +1,137 @@
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 4%;
+    height: auto;
+    width: 100vw;
+}
+
+.menu-image-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    border-radius: 10px;
+    justify-content: flex-start;
+    margin: 1em auto;
+    width: 80vw;
+    margin-bottom: 4em;
+}
+
+.menu-image-wrapper {
+    display: flex;
+    flex: 0 0 auto;
+    scroll-snap-align: start;   
+}
+
+.menu-image-array {
+    border-radius: 10px;
+    width: 30vw;
+    height: 15vh;
+    scroll-snap-stop: always;
+}
+
+.menu-image-name{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #666;
+    font-weight: bold;
+    margin: 1em auto;
+}
+
+.menu-image-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 2px solid #666;
+    color: #666;
+    font-weight: bold;
+    margin: 0em auto;
+    margin-bottom: 2em;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .menu-image-container {
+        width: 90vw;
+        margin: 1em auto;
+        margin-bottom: 4em;
+    }
+    
+    .menu-image-array {
+        width: 35vw;
+        height: 25vh;
+    }
+
+    .menu-image-text{
+        margin-bottom: 2em;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .menu-image-container {
+        width: 90vw;
+        margin: 1em auto;
+        margin-bottom: 4em;
+    }
+    
+    .menu-image-array {
+        width: 40vw;
+        height: 32vh;
+    }
+    .menu-image-text {
+        font-size: 17px;
+        margin-bottom: 1em;
+    }
+
+    .menu-image-name{
+        font-size: 17px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .menu-image-container {
+        width: 90vw;
+        margin: 1em auto;
+        margin-bottom: 4em;
+    }
+    
+    .menu-image-array {
+        width: 45vw;
+        height: 38vh;
+    }
+
+    .menu-image-text {
+        font-size: 20px;
+        margin-bottom: 2em;
+    }
+
+    .menu-image-name{
+        font-size: 20px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .menu-image-container {
+        margin: 0 auto;
+        width: 90vw;
+        margin-bottom: 4em;
+    }
+    
+    .menu-image-array {
+        width: 30vw;
+        height: 50vh;
+        border-radius: 10px;
+    }
+
+    .menu-image-text{
+        margin-bottom: 2em;
+    }
+}

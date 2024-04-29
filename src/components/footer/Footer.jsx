@@ -18,8 +18,8 @@ function Footer() {
 
         <nav>
           <a href="./">Inicio</a>
-          <a href="">Sobre Nosotros</a>
-          <a href="">Carta</a>
+          <a href="/about">Sobre Nosotros</a>
+          <a href="/menu">Carta</a>
           <a href="https://www.instagram.com" target="blank">
             <img
               src="../../../img/insta.webp"
@@ -32,6 +32,13 @@ function Footer() {
               src="../../../img/twitter.webp"
               alt="twitter"
               className="footer-twitter"
+            />
+          </a>
+          <a href="https://github.com/Deathvks/EL-REFUGIO-DEL-GOURMET" target="blank">
+            <img
+              src="../../../img/github.webp"
+              alt="twitter"
+              className="footer-github"
             />
           </a>
         </nav>

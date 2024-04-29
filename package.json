@@ -1,4 +1,5 @@
 {
+  "homepage":"https://deathvks.github.io/EL-REFUGIO-DEL-GOURMET/",
   "name": "elrefugiodelgourmet",
   "private": true,
   "version": "0.0.0",
@@ -17,7 +18,8 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.3"
+    "react-router-dom": "^6.22.3",
+    "react-swipeable": "^7.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
@@ -27,6 +29,8 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+    "gh": "^2.8.9",
+    "pages": "^0.0.16",
     "vite": "^5.2.0"
   }
 }

@@ -16,7 +16,6 @@ function Arrow() {
 
     useEffect(() => {
         let lastScrollTop = 0;
-
         const onScroll = () => {
             let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
             if (currentScroll > lastScrollTop) {

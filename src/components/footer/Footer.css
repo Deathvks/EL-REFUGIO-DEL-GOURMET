@@ -1,3 +1,4 @@
+
 footer{
     height: auto;
     width: 100%;
@@ -74,6 +75,10 @@ footer{
     width: 1em;
 }
 
+.footer-github{
+    width: 1em;
+}
+
 .footer-copyright{
     display: flex;
     flex-direction: row;
@@ -113,6 +118,11 @@ footer{
     .footer-text-copyright{
         font-size: 15px;
     }
+
+    .footer-github{
+        width: 1.5em;
+    }
+    
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -143,6 +153,11 @@ footer{
     .footer-twitter{
         width: 1.5em;
     }
+
+    .footer-github{
+        width: 1.5em;
+    }
+    
 
     .footer-text-copyright{
         font-size: 18px;
@@ -179,6 +194,10 @@ footer{
         width: 1.5em;
     }
 
+    .footer-github{
+        width: 1.5em;
+    }
+
     .footer-text-copyright{
         font-size: 18px;
     }
@@ -202,7 +221,7 @@ footer{
     .footer-logo{
         width: 10vw;
         height: 9vw;
-        margin-left: 10em;
+        margin-left: 15.5em;
     }
 
     .footer-text-copy{
@@ -221,6 +240,11 @@ footer{
     .footer-twitter{
         width: 1.5em;
     }
+
+    .footer-github{
+        width: 1.5em;
+    }
+    
 
     .footer-text-copyright{
         font-size: 18px;

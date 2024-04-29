@@ -21,8 +21,14 @@
     text-decoration: none;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
+    padding: 8px 16px;
+    border-radius: 99px;
     font-weight: bold;
     font-size: 10px;
+}
+
+.header-container header nav a:hover{
+    background: #fff2cd;
 }
 
 .header-presentation{
@@ -81,7 +87,7 @@
     }
 
     .header-logo{
-        margin: 5em auto;
+        margin: 6em auto;
         width: 15vw;
         height: 13vh;
         margin-left: 2em;
@@ -109,11 +115,11 @@
     
     .header-name{
         font-size: 20px;
-        margin: 5em auto;
+        margin: 5.5em auto;
     }
 
     .header-logo{
-        margin: 4em auto;
+        margin: 5em auto;
         width: 15vw;
         height: 13vh;
         margin-left: 2em;
@@ -141,7 +147,7 @@
     
     .header-name{
         font-size: 24px;
-        margin: 3.5em auto;
+        margin: 4.3em auto;
     }
 
     .header-logo{
