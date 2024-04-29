@@ -1,5 +1,5 @@
 {
-  "homepage":"https://deathvks.github.io/EL-REFUGIO-DEL-GOURMET/",
+  "homepage": "https://deathvks.github.io/EL-REFUGIO-DEL-GOURMET/",
   "name": "elrefugiodelgourmet",
   "private": true,
   "version": "0.0.0",
@@ -16,6 +16,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "firebase": "^10.11.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3",
