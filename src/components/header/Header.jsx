@@ -12,8 +12,6 @@ function Header() {
                     <a href='./' className='header-active'>Inicio</a>
                     <a href='/about'>Sobre Nosotros</a>
                     <a href='/menu'>Carta</a>
-                    <a href='https://www.instagram.com' target='blank'><img src="../../../img/insta.webp" alt='insta' className='header-insta' /></a>
-                    <a href='https://www.twitter.com' target='blank'><img src="../../../img/twitter.webp" alt='twitter' className='header-twitter' /></a>
                 </nav>
             </header>
         </div>

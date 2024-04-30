@@ -16,12 +16,12 @@
 }
 
 .header-container header nav a{
-    margin-right: 1em;
+    margin-right: 2em;
     display: inline-block;
     text-decoration: none;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
-    padding: 8px 16px;
+    padding: 8px 5px;
     border-radius: 99px;
     font-weight: bold;
     font-size: 10px;
@@ -52,14 +52,6 @@
     margin-left: 1em;
 }
 
-.header-insta{
-    width: 1em;
-}
-
-.header-twitter{
-    width: 1em;
-}
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 }
@@ -72,7 +64,8 @@
     }
     
     .header-container header nav a{
-        font-size: 15px;
+        margin-right: 2em;
+        font-size: 10.9px;
     }
 
     .header-presentation{
@@ -82,8 +75,8 @@
     }
     
     .header-name{
-        font-size: 17px;
-        margin: 7em auto;
+        font-size: 15px;
+        margin: 9em auto;
     }
 
     .header-logo{
@@ -110,12 +103,13 @@
     }
     
     .header-container header nav a{
-        font-size: 15px;
+        margin-right: 3em;
+        font-size: 14px;
     }
     
     .header-name{
-        font-size: 20px;
-        margin: 5.5em auto;
+        font-size: 15px;
+        margin: 8em auto;
     }
 
     .header-logo{
@@ -142,12 +136,13 @@
     }
     
     .header-container header nav a{
-        margin-right: 2em;
+        font-size: 15px;
+        margin-right: 4em;
     }
     
     .header-name{
-        font-size: 24px;
-        margin: 4.3em auto;
+        font-size: 19px;
+        margin: 5.8em auto;
     }
 
     .header-logo{
