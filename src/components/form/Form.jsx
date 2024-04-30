@@ -85,10 +85,10 @@ function Form() {
             {alert && <p className={alertType}>{alert}</p>}
             <form onSubmit={addNewRate}>
                 <label htmlFor="name" className="name">Nombre:</label>
-                <input type="text" id="name" name="name" value={name} onChange={changeName} className={alert ? "error" : ""} />
+                <input type="text" id="name" name="name" value={name} onChange={changeName} className={alertType === "error-message" ? "error" : ""} />
 
                 <label htmlFor="rate" className="rate">Reseña:</label>
-                <input type="text" id="rate" name="rate" value={rate} onChange={changeRate} className={alert ? "error" : ""} />
+                <input type="text" id="rate" name="rate" value={rate} onChange={changeRate} className={alertType === "error-message" ? "error" : ""} />
 
                 <button type="submit" className="sub">Añadir reseña</button>
                 {editRateIndex !== null && <button type="button" onClick={saveEditedRate} className="save-changes-button">Guardar cambios</button>}

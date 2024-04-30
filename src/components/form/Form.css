@@ -92,7 +92,7 @@ input.success {
     border-radius: 8px;
     background-color: rgba(0, 0, 0, 0.1);
     flex-direction: column;
-    max-width: 300px;
+    max-width: 400px;
     border: 2px solid rgb(0, 0, 0);
     display: flex;
     height: auto;
@@ -110,9 +110,8 @@ input.success {
     margin-top: 0 auto;
     font-size: 18px;
     font-weight: bold;
-    overflow: hidden;
-    white-space: nowrap;
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .save-changes-button {
@@ -170,6 +169,10 @@ input.success {
 @media only screen and (min-width: 1200px) {
     form {
         max-width: 400px;
+    }
+
+    .form-container{
+        max-width: 750px;
     }
 
     .form-h1{
