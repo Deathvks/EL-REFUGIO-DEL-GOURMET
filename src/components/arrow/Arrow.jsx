@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import "./Arrow.css";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 function Arrow() {
     const [isVisible, setIsVisible] = useState(true);
