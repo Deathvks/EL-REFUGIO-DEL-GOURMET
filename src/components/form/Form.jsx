@@ -8,6 +8,7 @@ function Form() {
     const [alert, setAlert] = useState("");
     const [alertType, setAlertType] = useState("");
     const [rates, setRates] = useState([]);
+    const [editRateIndex, setEditRateIndex] = useState(null);
 
     const changeName = (e) => {
         setName(e.target.value);
@@ -57,6 +58,27 @@ function Form() {
         });
     };
 
+    const editRate = (index) => {
+        setEditRateIndex(index);
+        setName(rates[index].name);
+        setRate(rates[index].rate);
+    };
+
+    const saveEditedRate = () => {
+        let auxRates = [...rates];
+        auxRates[editRateIndex] = { name, rate };
+        setRates(auxRates);
+        setName("");
+        setRate("");
+        setEditRateIndex(null);
+    };
+
+    const deleteRate = (index) => {
+        let auxRates = [...rates];
+        auxRates.splice(index, 1);
+        setRates(auxRates);
+    };
+
     return (
         <>
             <h1 className="form-h1">¡Déjanos una reseña!</h1>
@@ -69,18 +91,22 @@ function Form() {
                 <input type="text" id="rate" name="rate" value={rate} onChange={changeRate} className={alert ? "error" : ""} />
 
                 <button type="submit" className="sub">Añadir reseña</button>
+                {editRateIndex !== null && <button type="button" onClick={saveEditedRate} className="save-changes-button">Guardar cambios</button>}
             </form>
 
             <div className="form-container">
                 {
                     rates.map((r, index) => (
-                        <p key={index} className="form-rate">{r.name}: {r.rate}</p>
+                        <div key={index} className="form-rate">
+                            <p>{r.name}: {r.rate}</p>
+                            <div>
+                                <button onClick={() => editRate(index)} className="form-edit">Editar</button>
+                                <button onClick={() => deleteRate(index)} className="form-delete">Eliminar</button>
+                            </div>
+                        </div>
                     ))
                 }
             </div>
-
-
-
         </>
     );
 }
