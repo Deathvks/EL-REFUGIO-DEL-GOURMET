@@ -1,5 +1,5 @@
 import db from "./firebase.config.js";
-import { push, ref, onValue } from "firebase/database"
+import { push, ref, onValue, set, child, remove } from "firebase/database"
 
 const refRates = ref(db, "/rates");
 
@@ -8,7 +8,7 @@ const getAllRates = () => {
         onValue(refRates, (snapshot) => {
             const data = snapshot.val();
             if (data) {
-                const rates = Object.keys(data).map((key) => data[key]);
+                const rates = Object.keys(data).map((key) => ({ id: key, ...data[key] }));
                 resolve(rates);
             } else {
                 resolve([]);
@@ -26,7 +26,20 @@ const addRate = (name, rate) => {
     })
 }
 
+const updateRate = (id, name, rate) => {
+    return set(child(refRates, id), {
+        name: name,
+        rate: rate
+    });
+};
+
+const deleteRate = (id) => {
+    return remove(child(refRates, id));
+};
+
 export default {
     getAllRates,
+    updateRate,
+    deleteRate,
     addRate
 }
