@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import RateService from "../../services/firebase/rates.service.js";
 import "./Form.css";
 
@@ -9,6 +9,14 @@ function Form() {
     const [alertType, setAlertType] = useState("");
     const [rates, setRates] = useState([]);
     const [editRateIndex, setEditRateIndex] = useState(null);
+
+    useEffect(() => {
+        RateService.getAllRates().then((rates) => {
+            setRates(rates);
+        }).catch((error) => {
+            console.error(error);
+        });
+    }, []);
 
     const changeName = (e) => {
         setName(e.target.value);
@@ -66,17 +74,33 @@ function Form() {
 
     const saveEditedRate = () => {
         let auxRates = [...rates];
-        auxRates[editRateIndex] = { name, rate };
+        let rateId = auxRates[editRateIndex].id; // get the ID of the rate
+        auxRates[editRateIndex] = { id: rateId, name, rate };
         setRates(auxRates);
+        RateService.updateRate(rateId, name, rate).then(() => {
+            setName("");
+            setRate("");
+            setEditRateIndex(null);
+        }).catch((error) => {
+            console.error(error);
+        });
+    };
+
+    const cancelEdit = () => {
         setName("");
         setRate("");
         setEditRateIndex(null);
     };
 
     const deleteRate = (index) => {
-        let auxRates = [...rates];
-        auxRates.splice(index, 1);
-        setRates(auxRates);
+        let rateId = rates[index].id; // get the ID of the rate
+        RateService.deleteRate(rateId).then(() => {
+            let auxRates = [...rates];
+            auxRates.splice(index, 1);
+            setRates(auxRates);
+        }).catch((error) => {
+            console.error(error);
+        });
     };
 
     return (
@@ -91,7 +115,12 @@ function Form() {
                 <input type="text" id="rate" name="rate" value={rate} onChange={changeRate} className={alertType === "error-message" ? "error" : ""} />
 
                 <button type="submit" className="sub">Añadir reseña</button>
-                {editRateIndex !== null && <button type="button" onClick={saveEditedRate} className="save-changes-button">Guardar cambios</button>}
+                {editRateIndex !== null && (
+                    <>
+                        <button type="button" onClick={saveEditedRate} className="save-changes-button">Guardar cambios</button>
+                        <button type="button" onClick={cancelEdit} className="cancel-edit-button">Cancelar edición</button>
+                    </>
+                )}
             </form>
 
             <div className="form-container">
