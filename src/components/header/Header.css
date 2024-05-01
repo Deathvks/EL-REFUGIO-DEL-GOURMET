@@ -75,13 +75,13 @@
     }
     
     .header-name{
-        font-size: 15px;
-        margin: 9em auto;
+        font-size: 14px;
+        margin: 10em auto;
     }
 
     .header-logo{
         margin: 6em auto;
-        width: 15vw;
+        width: 17vw;
         height: 13vh;
         margin-left: 2em;
     }
