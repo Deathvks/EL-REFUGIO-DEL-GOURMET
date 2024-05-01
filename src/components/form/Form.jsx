@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import RateService from "../../services/firebase/rates.service.js";
 import "./Form.css";
 
@@ -9,6 +9,14 @@ function Form() {
     const [alertType, setAlertType] = useState("");
     const [rates, setRates] = useState([]);
     const [editRateIndex, setEditRateIndex] = useState(null);
+
+    useEffect(() => {
+        RateService.getAllRates().then((rates) => {
+            setRates(rates);
+        }).catch((error) => {
+            console.error(error);
+        });
+    }, []);
 
     const changeName = (e) => {
         setName(e.target.value);
