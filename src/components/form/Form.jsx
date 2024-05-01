@@ -74,7 +74,7 @@ function Form() {
 
     const saveEditedRate = () => {
         let auxRates = [...rates];
-        let rateId = auxRates[editRateIndex].id; // get the ID of the rate
+        let rateId = auxRates[editRateIndex].id;
         auxRates[editRateIndex] = { id: rateId, name, rate };
         setRates(auxRates);
         RateService.updateRate(rateId, name, rate).then(() => {
@@ -93,7 +93,7 @@ function Form() {
     };
 
     const deleteRate = (index) => {
-        let rateId = rates[index].id; // get the ID of the rate
+        let rateId = rates[index].id;
         RateService.deleteRate(rateId).then(() => {
             let auxRates = [...rates];
             auxRates.splice(index, 1);
