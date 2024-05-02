@@ -34,7 +34,8 @@ const updateRate = (id, name, rate) => {
 };
 
 const deleteRate = (id) => {
-    return remove(child(refRates, id));
+    const refRates = ref(db, `/rates/${id}`);
+    return remove(refRates);
 };
 
 export default {

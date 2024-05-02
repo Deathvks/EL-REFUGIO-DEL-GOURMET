@@ -8,14 +8,19 @@ function Form() {
     const [alert, setAlert] = useState("");
     const [alertType, setAlertType] = useState("");
     const [rates, setRates] = useState([]);
-    const [editRateIndex, setEditRateIndex] = useState(null);
+    const [rateBeingEdited, setRateBeingEdited] = useState(null);
 
-    useEffect(() => {
-        RateService.getAllRates().then((rates) => {
-            setRates(rates);
+    const getAllRates = () => {
+        RateService.getAllRates().then((ratesData) => {
+            console.log(ratesData)
+            setRates([...ratesData]);
         }).catch((error) => {
             console.error(error);
         });
+    }
+
+    useEffect(() => {
+        getAllRates();
     }, []);
 
     const changeName = (e) => {
@@ -38,13 +43,7 @@ function Form() {
         }
         saveRate(name, rate);
 
-        let auxRates = rates;
-        auxRates.push({
-            name: e.target.name.value,
-            rate: e.target.rate.value
-        });
-
-        setRates([...auxRates])
+        getAllRates();
     };
 
     const saveRate = (name, rate) => {
@@ -66,21 +65,19 @@ function Form() {
         });
     };
 
-    const editRate = (index) => {
-        setEditRateIndex(index);
-        setName(rates[index].name);
-        setRate(rates[index].rate);
+    const editRate = (r) => {
+        setRateBeingEdited(r);
+        setName(r.name);
+        setRate(r.rate);
     };
 
     const saveEditedRate = () => {
-        let auxRates = [...rates];
-        let rateId = auxRates[editRateIndex].id;
-        auxRates[editRateIndex] = { id: rateId, name, rate };
-        setRates(auxRates);
+        let rateId = rateBeingEdited.id;
         RateService.updateRate(rateId, name, rate).then(() => {
             setName("");
             setRate("");
-            setEditRateIndex(null);
+            getAllRates();
+            setRateBeingEdited(null);
         }).catch((error) => {
             console.error(error);
         });
@@ -89,15 +86,14 @@ function Form() {
     const cancelEdit = () => {
         setName("");
         setRate("");
-        setEditRateIndex(null);
+        setRateBeingEdited(null);
     };
 
-    const deleteRate = (index) => {
-        let rateId = rates[index].id;
-        RateService.deleteRate(rateId).then(() => {
-            let auxRates = [...rates];
-            auxRates.splice(index, 1);
-            setRates(auxRates);
+    const deleteRate = (rateId) => {
+        console.log("vay aborrar", rateId)
+        RateService.deleteRate(rateId).then((r) => {
+            console.log("se borró")
+            getAllRates();
         }).catch((error) => {
             console.error(error);
         });
@@ -115,7 +111,7 @@ function Form() {
                 <input type="text" id="rate" name="rate" value={rate} onChange={changeRate} className={alertType === "error-message" ? "error" : ""} />
 
                 <button type="submit" className="sub">Añadir reseña</button>
-                {editRateIndex !== null && (
+                {rateBeingEdited !== null && (
                     <>
                         <button type="button" onClick={saveEditedRate} className="save-changes-button">Guardar cambios</button>
                         <button type="button" onClick={cancelEdit} className="cancel-edit-button">Cancelar edición</button>
@@ -129,8 +125,8 @@ function Form() {
                         <div key={index} className="form-rate">
                             <p>{r.name}: {r.rate}</p>
                             <div>
-                                <button onClick={() => editRate(index)} className="form-edit">Editar</button>
-                                <button onClick={() => deleteRate(index)} className="form-delete">Eliminar</button>
+                                <button onClick={() => editRate(r)} className="form-edit">Editar</button>
+                                <button onClick={() => deleteRate(r.id)} className="form-delete">Eliminar</button>
                             </div>
                         </div>
                     ))
