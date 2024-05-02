@@ -34,7 +34,7 @@ function Route() {
                         </MapContainer>
                     </div>
                     <div className="section">
-                        <h2>Contáctanos</h2>
+                        <h2>Contáctenos</h2>
                         <p className="contact-info">elrincondelgourmet@gmail.com</p>
                         <p className="contact-info">+34 927152678</p>
                     </div>
