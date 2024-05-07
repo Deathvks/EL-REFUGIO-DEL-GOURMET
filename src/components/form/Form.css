@@ -92,7 +92,7 @@ input.success {
     border-radius: 8px;
     background-color: rgba(0, 0, 0, 0.1);
     flex-direction: column;
-    max-width: 400px;
+    max-width: 300px;
     border: 2px solid rgb(0, 0, 0);
     display: flex;
     height: auto;
