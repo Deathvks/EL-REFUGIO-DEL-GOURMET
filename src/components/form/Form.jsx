@@ -91,7 +91,7 @@ function Form() {
 
     const deleteRate = (rateId) => {
         console.log("vay aborrar", rateId)
-        RateService.deleteRate(rateId).then((r) => {
+        RateService.deleteRate(rateId).then(() => {
             console.log("se borró")
             getAllRates();
         }).catch((error) => {

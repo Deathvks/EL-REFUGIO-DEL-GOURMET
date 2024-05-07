@@ -25,7 +25,7 @@ Download the project
 
 And all is ok
 
-    See the code
+    ejecute to see: npm run dev
 
 This is only for view de project in your local machine.
 
