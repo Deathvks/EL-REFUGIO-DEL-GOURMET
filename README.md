@@ -21,7 +21,7 @@ Requisitos para el software y otras herramientas para construir, probar e impuls
 
 Download the project
 
-    git clone "url github"
+    git clone "https://github.com/Deathvks/EL-REFUGIO-DEL-GOURMET"
 
 And all is ok
 
