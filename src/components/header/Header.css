@@ -24,7 +24,7 @@
     padding: 8px 5px;
     border-radius: 99px;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 7px;
 }
 
 .header-container header nav a:hover{
@@ -40,8 +40,8 @@
 .header-name{
     color: black;
     width: 70%;
-    font-size: 13px;
-    margin: 3.5em auto;
+    font-size: 12px;
+    margin: 4em auto;
 }
 
 .header-logo{
