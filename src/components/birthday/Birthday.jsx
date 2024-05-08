@@ -4,7 +4,7 @@ function Birthday() {
   return (
     <div className="birthday-card">
       <div className="header">
-        <span className="title">Si es tu cummple puedes comer...</span>
+        <span className="title">Si es tu cumple puedes comer...</span>
         <span className="price">¡Gratis!</span>
       </div>
       <p className="desc">Confirma que es tu cumpleaños desde el mostrador y obtendrás:</p>
