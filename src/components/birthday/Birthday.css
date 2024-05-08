@@ -1,0 +1,110 @@
+.birthday-card {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-bottom: 2rem;
+    width: 70vw;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    border-radius: 1em;
+    background-color: black;
+    margin-bottom: 2em;
+    padding: 1.5rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: #fff
+}
+
+.price {
+    font-size: 3.75rem;
+    line-height: 1;
+    font-weight: 700;
+    color: #fff
+}
+
+.desc {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.625;
+    color: rgba(156, 163, 175, 1);
+}
+
+.lists {
+    margin-bottom: 1.5rem;
+    flex: 1 1 0%;
+    color: rgba(156, 163, 175, 1);
+}
+
+.lists .list {
+    margin-bottom: 0.5rem;
+    display: flex;
+    margin-left: 0.5rem
+}
+
+.lists .list svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    flex-shrink: 0;
+    margin-right: 0.5rem;
+    color: #fff2cd;
+}
+
+.action {
+    border: none;
+    outline: none;
+    display: inline-block;
+    border-radius: 0.25rem;
+    background-color: #fff2cd;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: rgba(17, 24, 39, 1);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .birthday-card {
+        width: 45vw;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .birthday-card {
+        width: 35vw;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .birthday-card {
+        width: 30vw;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .birthday-card {
+        width: 16vw;
+    }
+}
