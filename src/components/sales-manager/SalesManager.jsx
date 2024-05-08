@@ -2,7 +2,7 @@ import './SalesManager.css';
 
 function SalesManager() {
     return (
-        <div class="sales-manager-all">
+        <div className="sales-manager-all">
             <h1>Condiciones de Venta</h1>
             <p><strong>1. Reservas y Pedidos:</strong> Los clientes pueden realizar reservas o pedidos a través de nuestro sitio web. Nos comprometemos a confirmar las reservas y procesar los pedidos de manera eficiente.</p>
             <p><strong>2. Pago:</strong> Aceptamos pagos en efectivo, tarjetas de crédito y otros métodos electrónicos. Los precios incluyen impuestos y cargos adicionales, si los hubiera.</p>
