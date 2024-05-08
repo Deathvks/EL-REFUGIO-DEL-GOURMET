@@ -41,6 +41,13 @@ function Footer() {
               className="footer-github"
             />
           </a>
+          <a href="" target="blank">
+            <img
+              src="../../../img/rss.png"
+              alt="rss"
+              className="footer-rss"
+            />
+          </a>
         </nav>
 
         <div className="footer-copy">
