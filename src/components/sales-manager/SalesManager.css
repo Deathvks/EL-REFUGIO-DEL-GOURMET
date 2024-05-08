@@ -6,10 +6,12 @@
     border-radius: 10px;
     border: 3px solid #ffffff;
     width: 80vw;
+    min-height: 52vh;
     margin: 3em auto;
     padding: 20px;
     background-color: #000000;
     box-shadow: 0 4px 7px rgba(0, 0, 0, 0.9);
+    overflow-y: auto;
 }
 
 .sales-manager-all h1 {
@@ -30,21 +32,21 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .sales-manager-all {
-        height: 52vh;
+        min-height: 50vh;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .sales-manager-all {
-        height: 48vh;
+        min-height: 45vh;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .sales-manager-all {
-        height: 42vh;
+        min-height: 40vh;
     }
 }
 
