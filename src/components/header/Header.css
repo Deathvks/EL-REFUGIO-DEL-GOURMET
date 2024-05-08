@@ -1,10 +1,10 @@
-.header-container{
+.header-container {
     width: 100%;
     z-index: 99;
     border-bottom: 1px solid black;
 }
 
-.header-container header{
+.header-container header {
     height: 4vh;
     width: 100%;
     margin: auto;
@@ -15,20 +15,20 @@
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-.header-presentation{
+.header-presentation {
     display: flex;
     flex-direction: row;
     color: rgb(255, 255, 255);
 }
 
-.header-name{
+.header-name {
     color: black;
     width: 70%;
     font-size: 12px;
     margin: 4em auto;
 }
 
-.header-logo{
+.header-logo {
     border-radius: 5px;
     margin: 2.8em auto;
     width: 6vw;
@@ -39,9 +39,9 @@
 .nav-container {
     display: flex;
     justify-content: space-between;
-  }
-  
-  .button {
+}
+
+.button {
     margin-top: 1em;
     height: 20px;
     width: 5em;
@@ -57,15 +57,15 @@
     justify-content: center;
     align-items: center;
     margin-right: 3px;
-  }
-  
-  .btn-txt {
+}
+
+.btn-txt {
     font-size: 12px;
     z-index: 1;
     font-weight: 5px;
-  }
-  
-  .type1::after {
+}
+
+.type1::after {
     content: "";
     position: absolute;
     left: 0;
@@ -77,53 +77,52 @@
     height: 10px;
     width: 10px;
     z-index: -1;
-  }
-  
-  .button:hover {
+}
+
+.button:hover {
     box-shadow: 1px 1px 200px #252525;
     color: #fff2cd;
     border: none;
-  }
-  
-  .type1:hover::after {
+}
+
+.type1:hover::after {
     visibility: visible;
     transform: scale(100) translateX(2px);
-  }
+}
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-}
+@media only screen and (max-width: 600px) {}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    
-    .header-container header{
+
+    .header-container header {
         height: 10vh;
     }
 
-    .header-presentation{
+    .header-presentation {
         display: flex;
         flex-direction: row;
         color: rgb(255, 255, 255);
     }
-    
-    .header-name{
+
+    .header-name {
         font-size: 14px;
         margin: 10em auto;
     }
 
-    .header-logo{
+    .header-logo {
         margin: 6em auto;
         width: 17vw;
         height: 13vh;
         margin-left: 2em;
     }
 
-    .header-insta{
+    .header-insta {
         width: 1.1em;
     }
 
-    .header-twitter{
+    .header-twitter {
         width: 1.1em;
     }
 
@@ -131,37 +130,37 @@
         height: 30px;
         width: 5.5em;
         margin-right: 10px;
-      }
-      
-      .btn-txt {
+    }
+
+    .btn-txt {
         font-size: 13px;
-      }
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    
-    .header-container header{
+
+    .header-container header {
         height: 10vh;
     }
-    
-    .header-name{
+
+    .header-name {
         font-size: 15px;
         margin: 8em auto;
     }
 
-    .header-logo{
+    .header-logo {
         margin: 5em auto;
         width: 15vw;
         height: 13vh;
         margin-left: 2em;
     }
 
-    .header-insta{
+    .header-insta {
         width: 1.1em;
     }
 
-    .header-twitter{
+    .header-twitter {
         width: 1.1em;
     }
 
@@ -169,36 +168,36 @@
         height: 40px;
         width: 7em;
         margin-right: 20px;
-      }
-      
-      .btn-txt {
+    }
+
+    .btn-txt {
         font-size: 16px;
-      }
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .header-container header{
+    .header-container header {
         height: 9vh;
         width: 100%;
     }
-    
-    .header-name{
+
+    .header-name {
         font-size: 19px;
         margin: 5.8em auto;
     }
 
-    .header-logo{
+    .header-logo {
         width: 10vw;
         height: 10vw;
         margin-left: 5em;
     }
 
-    .header-insta{
+    .header-insta {
         width: 1.5em;
     }
 
-    .header-twitter{
+    .header-twitter {
         width: 1.5em;
     }
 
@@ -206,26 +205,26 @@
         height: 45px;
         width: 8em;
         margin-right: 30px;
-      }
-      
-      .btn-txt {
+    }
+
+    .btn-txt {
         font-size: 16px;
         letter-spacing: 1px;
-      }
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .header-container header{
+    .header-container header {
         height: 7vh;
     }
-    
-    .header-name{
+
+    .header-name {
         font-size: 24px;
         margin: 5em auto;
     }
 
-    .header-logo{
+    .header-logo {
         margin-right: 1em;
         margin-top: 6.2em;
         width: 5vw;
@@ -233,11 +232,11 @@
         margin-left: 5em;
     }
 
-    .header-insta{
+    .header-insta {
         width: 1.5em;
     }
 
-    .header-twitter{
+    .header-twitter {
         width: 1.5em;
     }
 
@@ -245,10 +244,10 @@
         height: 50px;
         width: 10em;
         margin-right: 50px;
-      }
-      
-      .btn-txt {
+    }
+
+    .btn-txt {
         font-size: 18px;
         letter-spacing: 1px;
-      }
+    }
 }

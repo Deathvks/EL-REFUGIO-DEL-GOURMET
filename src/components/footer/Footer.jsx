@@ -34,7 +34,10 @@ function Footer() {
               className="footer-twitter"
             />
           </a>
-          <a href="https://github.com/Deathvks/EL-REFUGIO-DEL-GOURMET" target="blank">
+          <a
+            href="https://github.com/Deathvks/EL-REFUGIO-DEL-GOURMET"
+            target="blank"
+          >
             <img
               src="../../../img/github.webp"
               alt="twitter"
@@ -42,11 +45,7 @@ function Footer() {
             />
           </a>
           <a href="" target="blank">
-            <img
-              src="../../../img/rss.png"
-              alt="rss"
-              className="footer-rss"
-            />
+            <img src="../../../img/rss.png" alt="rss" className="footer-rss" />
           </a>
         </nav>
 
