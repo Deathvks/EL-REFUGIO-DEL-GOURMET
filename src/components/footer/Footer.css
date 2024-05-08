@@ -25,7 +25,8 @@ footer{
     color: rgb(0, 0, 0);
     margin: 0 auto;
     padding-right: 1em;
-    font-size: 13px;
+    margin-left: 0.6em;
+    font-size: 11px;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -92,6 +93,13 @@ footer{
 .footer-text-copyright{
     color: rgb(0, 0, 0);
     font-size: 12px;
+}
+
+.footer-test{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
 }
 
 /* Extra small devices (phones, 600px and down) */

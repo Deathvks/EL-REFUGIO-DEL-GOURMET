@@ -16,7 +16,7 @@ function Footer() {
           </a>
         </div>
 
-        <nav>
+        <nav className="footer-test">
           <a href="./">Inicio</a>
           <a href="/about">Sobre Nosotros</a>
           <a href="/menu">Carta</a>
