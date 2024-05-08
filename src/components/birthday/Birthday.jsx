@@ -52,9 +52,6 @@ function Birthday() {
           <span>Descuento para un amigo ese día</span>
         </li>
       </ul>
-      <button type="button" className="action">
-        ¡Disfrútalo ya mismo!
-      </button>
     </div>
   );
 }
