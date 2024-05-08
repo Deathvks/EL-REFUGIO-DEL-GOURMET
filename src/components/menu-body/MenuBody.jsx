@@ -7,7 +7,7 @@ function MenuBody() {
         <div className="menu-body-text">
           <h1 className="menu-body-h1">NUEVAS BURGUERS</h1>
           <p className="menu-body-text-presentation">
-            Con ingredientes nuevos y potenciando los sabores más quieres. *Promoción válida hasta el 30 de junio de 2024*.
+            Con ingredientes nuevos y potenciando los sabores que más quieres. *Promoción válida hasta el 30 de junio de 2024*.
           </p>
         </div>
         <div className="menu-body-image">
