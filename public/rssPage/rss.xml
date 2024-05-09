@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Ofertas Especiales - Restaurante El Refegio del Gourmet</title>
+    <link>https://el-rincon-del-gourmet.web.app/rss.xml</link>
+    <description>¡Mantente al tanto de nuestras últimas ofertas especiales en hamburguesas, combos y bebidas!</description>
+    <language>es</language>
+    
+    <!-- Primera Oferta Especial -->
+    <item>
+      <title>¡50% de descuento en todas las hamburguesas los lunes!</title>
+      <link>https://el-rincon-del-gourmet.web.app/menu</link>
+      <description>¡No te pierdas nuestro increíble descuento del 50% en todas nuestras deliciosas hamburguesas cada lunes! ¡Ven y disfruta de tu hamburguesa favorita a mitad de precio!</description>
+      <pubDate>Mon, 09 May 2024 08:00:00 GMT</pubDate>
+    </item>
+    
+    <!-- Segunda Oferta Especial -->
+    <item>
+      <title>¡Combo Familiar para los fines de semana!</title>
+      <link>https://el-rincon-del-gourmet.web.app/menu</link>
+      <description>¡Haz que tus fines de semana sean aún más especiales con nuestro Combo Familiar! Por solo 7€, obtén 4 hamburguesas, 4 porciones de papas fritas y 4 refrescos. ¡Ideal para compartir en familia!</description>
+      <pubDate>Fri, 12 May 2024 12:00:00 GMT</pubDate>
+    </item>
+    
+    <!-- Tercera Oferta Especial -->
+    <item>
+      <title>¡Hora Feliz todos los días de 4pm a 7pm!</title>
+      <link>https://el-rincon-del-gourmet.web.app/menu</link>
+      <description>¡Ven a nuestra Hora Feliz y disfruta de descuentos especiales en nuestras bebidas y aperitivos! ¡Es la manera perfecta de relajarte después del trabajo!</description>
+      <pubDate>Wed, 10 May 2024 16:00:00 GMT</pubDate>
+    </item>
+    
+    <!-- Cuarta Oferta Especial -->
+    <item>
+      <title>¡Día del Niño - Descuentos para los más pequeños!</title>
+      <link>https://el-rincon-del-gourmet.web.app/menu</link>
+      <description>Celebra el Día del Niño con nosotros y obtén un 20% de descuento en el menú infantil para todos los niños menores de 12 años. ¡Haz que su día sea aún más especial con nuestras deliciosas opciones para niños!</description>
+      <pubDate>Sun, 14 May 2024 11:00:00 GMT</pubDate>
+    </item>
+    
+    <!-- Quinta Oferta Especial -->
+    <item>
+      <title>¡Noche de Karaoke los viernes!</title>
+      <link>https://el-rincon-del-gourmet.web.app/menu</link>
+      <description>¡Únete a nosotros los viernes por la noche para una divertida noche de karaoke! Mientras disfrutas de nuestras hamburguesas y bebidas, demuestra tus habilidades vocales en nuestro escenario. ¡Premios para los mejores cantantes!</description>
+      <pubDate>Fri, 19 May 2024 19:00:00 GMT</pubDate>
+    </item>
+    
+  </channel>
+</rss>
