@@ -78,6 +78,18 @@
     color: rgba(17, 24, 39, 1);
 }
 
+.birthday-invitation{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+}
+
+.birthday-h1{
+    font-size: 25px;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
 
@@ -86,12 +98,20 @@
     .birthday-card {
         width: 45vw;
     }
+
+    .birthday-h1{
+        font-size: 28px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .birthday-card {
         width: 35vw;
+    }
+
+    .birthday-h1{
+        font-size: 30px;
     }
 }
 
@@ -100,11 +120,19 @@
     .birthday-card {
         width: 30vw;
     }
+
+    .birthday-h1{
+        font-size: 32px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .birthday-card {
         width: 16vw;
+    }
+
+    .birthday-h1{
+        font-size: 34px;
     }
 }
