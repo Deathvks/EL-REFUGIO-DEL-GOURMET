@@ -39,9 +39,9 @@ This project has been created thanks to the topics given in class and an exhaust
 
 ## RSS - FEEDLY
 
-![Feedly in use](/EL-REFUGIO-DEL-GOURMET/public/img/feedly.jpg)
+![Feedly in use](public/img/feedly.jpg)
 
-![Feedly, page in use](/EL-REFUGIO-DEL-GOURMET/public/img/feedly2.jpg)
+![Feedly, page in use](public/img/feedly2.jpg)
 
 
 ## Authors
