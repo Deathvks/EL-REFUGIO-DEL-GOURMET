@@ -33,6 +33,13 @@ This is only for view de project in your local machine.
 
 This project has been created thanks to the topics given in class and an exhaustive search in intener, as well as using our own knowledge. The logos and some images have been generated using AI
 
+## RSS - FEEDLY
+
+![Feedly in use](/EL-REFUGIO-DEL-GOURMET/public/img/feedly.jpg)
+
+![Feedly, page in use](/EL-REFUGIO-DEL-GOURMET/public/img/feedly2.jpg)
+
+
 ## Authors
 
   - **Dylan Jesús Suárez Falcón** - *Provided README Template* -
