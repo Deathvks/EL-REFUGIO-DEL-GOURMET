@@ -16,7 +16,7 @@ function Header() {
             <h1 className="header-name">EL REFUGIO DEL GOURMET</h1>
           </a>
         </div>
-        <nav className="nav-container">
+        <nav className="header-nav-container">
           <a href="./">
             <button className="button type1">
               <span className="btn-txt">Inicio</span>
