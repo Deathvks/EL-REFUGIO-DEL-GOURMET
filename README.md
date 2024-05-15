@@ -29,6 +29,10 @@ And all is ok
 
 This is only for view de project in your local machine.
 
+You can also search the URL directly:
+
+    URL: https://el-rincon-del-gourmet.web.app/
+
 ## Deployment
 
 This project has been created thanks to the topics given in class and an exhaustive search in intener, as well as using our own knowledge. The logos and some images have been generated using AI
